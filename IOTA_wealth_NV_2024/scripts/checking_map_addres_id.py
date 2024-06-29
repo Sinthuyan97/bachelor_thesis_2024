@@ -18,10 +18,10 @@ for index, row in negative_addresses_df.iterrows():
     balance = row['balances']
     if address in address_id_map:
         address_id = address_id_map[address]
-        mapped_status = 1
+        mapped_status = "Mapped"
     else:
-        address_id = None
-        mapped_status = 0
+        address_id = "NaN"
+        mapped_status = "Not Mapped"
 
     results.append((address_id, address, mapped_status, balance))
 
