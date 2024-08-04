@@ -1,18 +1,21 @@
 from flask import Flask, jsonify, request
+import requests
 
 app = Flask(__name__)
 
-@app.route('/api/explorer/v2/ledger/richest-addresses', methods=['GET'])
-def get_richest_addresses():
-    ledger_index = request.args.get('ledgerIndex', default=0, type=int)
-    top = request.args.get('top', default=10, type=int)
-    # Dummy data for demonstration
-    addresses = [{'address': f'address_{i}', 'balance': 1000 - i} for i in range(top)]
-    return jsonify({'ledgerIndex': ledger_index, 'top': addresses})
+# Simulate the external IOTA API endpoint
+external_api_url = "http://127.0.0.1:8000/api/explorer/v2/ledger/richest-addresses"
 
-@app.route('/favicon.ico')
-def favicon():
-    return '', 204
+@app.route('/api/explorer/v2/ledger/richest-addresses', methods=['GET'])
+def richest_addresses():
+    top = request.args.get('top', default=100, type=int)
+    ledger_index = request.args.get('ledgerIndex', default=1005429, type=int)
+
+    response_data = {
+        'top': top,
+        'ledgerIndex': ledger_index
+    }
+    return jsonify(response_data)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='127.0.0.1', port=8000)
+    app.run(host='127.0.0.1', port=8000)
