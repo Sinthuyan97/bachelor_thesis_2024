@@ -1,9 +1,9 @@
 from flask import Flask, jsonify, request
-import requests
+
 
 app = Flask(__name__)
 
-# Simulate the external IOTA API endpoint
+
 external_api_url = "http://127.0.0.1:8000/api/explorer/v2/ledger/richest-addresses"
 
 @app.route('/api/explorer/v2/ledger/richest-addresses', methods=['GET'])
