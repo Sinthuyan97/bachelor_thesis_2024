@@ -30,7 +30,7 @@ pip install numpy pandas matplotlib seaborn sqlite3 prettytable json
 
 ### Usage
 
-- **Clone the repository**:
+- Clone the repository:
 
     ```bash
     git clone https://github.com/your_username/bachelor_thesis_2024.git
