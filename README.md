@@ -49,7 +49,7 @@ pip install numpy pandas matplotlib seaborn sqlite3 prettytable json
 - **Run analysis notebooks**: 
     Once the database has been created, you can run any of the analysis notebooks.
 
-  ### Key Files Explanation
+### Key Files Explanation
 
 - **Data_Cleaning&Data_Preparing.ipynb**: Jupyter notebook used to clean and prepare the dataset for analysis.
 - **Database_Creating.ipynb**: Creates the SQLite database (`iotaDB.db`) from raw CSV files.
