@@ -2,7 +2,11 @@
 
 This repository contains the code, data, and analysis files for the Bachelor Thesis about the IOTA wealth distribution. The project focuses on analyzing the wealth distribution within the IOTA ecosystem, especially after the transition to the UTXO model.
 
-## Requirements
+
+## Setup this Template with your IDE of choice
+Download your IDE of choice (e.g. [Visual Studio Code](https://code.visualstudio.com/))
+
+### Requirements
 
 To execute the scripts and notebooks in this repository, ensure you have the following Python libraries installed:
 
@@ -16,7 +20,7 @@ To execute the scripts and notebooks in this repository, ensure you have the fol
 - `json`
 - `matplotlib.pyplot`
 
-### Install Dependencies
+#### Install Dependencies
 
 Run the following command to install all the necessary Python packages:
 
@@ -24,15 +28,18 @@ Run the following command to install all the necessary Python packages:
 pip install numpy pandas matplotlib seaborn sqlite3 prettytable json
 ```
 
-##### Key Files Explanation
+###### Key Files Explanation
 
 - **Data_Cleaning&Data_Preparing.ipynb**: Jupyter notebook used to clean and prepare the dataset for analysis.
 - **Database_Creating.ipynb**: Creates the SQLite database (`iotaDB.db`) from raw CSV files.
 - **Discriptive_Analysis.ipynb**: Conducts exploratory data analysis on wealth distribution.
 - **Gini_Nakamoto_Analysis.ipynb**: Analyzes wealth inequality using Gini and Nakamoto coefficients.
-- **IOTA_Wealth_Distribution_Table.csv**: Contains wealth distribution table.
+- **IOTA_1year_tx_data2.csv**: Raw transaction dataset containing one year transaction data.
+- **Negative_Balance_Analysis.ipynb**: Analyzes negative balances from the dataset.
+- **Wealth_Distribution_By_Amount_Range.ipynb**: Conducts wealth distribution analysis across different ranges of balances.
+- 
 
-##### Usage
+###### Usage
 
 - **Clone the repository**:
 
