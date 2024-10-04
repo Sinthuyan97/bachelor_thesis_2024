@@ -20,7 +20,7 @@ To execute the scripts and notebooks in this repository, ensure you have the fol
 - `json`
 - `matplotlib.pyplot`
 
-#### Install Dependencies
+### Install Dependencies
 
 Run the following command to install all the necessary Python packages:
 
@@ -28,7 +28,7 @@ Run the following command to install all the necessary Python packages:
 pip install numpy pandas matplotlib seaborn sqlite3 prettytable json
 ```
 
-###### Key Files Explanation
+### Key Files Explanation
 
 - **Data_Cleaning&Data_Preparing.ipynb**: Jupyter notebook used to clean and prepare the dataset for analysis.
 - **Database_Creating.ipynb**: Creates the SQLite database (`iotaDB.db`) from raw CSV files.
@@ -39,7 +39,7 @@ pip install numpy pandas matplotlib seaborn sqlite3 prettytable json
 - **Wealth_Distribution_By_Amount_Range.ipynb**: Conducts wealth distribution analysis across different ranges of balances.
 - 
 
-###### Usage
+### Usage
 
 - **Clone the repository**:
 
