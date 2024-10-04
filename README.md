@@ -28,17 +28,6 @@ Run the following command to install all the necessary Python packages:
 pip install numpy pandas matplotlib seaborn sqlite3 prettytable json
 ```
 
-### Key Files Explanation
-
-- **Data_Cleaning&Data_Preparing.ipynb**: Jupyter notebook used to clean and prepare the dataset for analysis.
-- **Database_Creating.ipynb**: Creates the SQLite database (`iotaDB.db`) from raw CSV files.
-- **Discriptive_Analysis.ipynb**: Conducts exploratory data analysis on wealth distribution.
-- **Gini_Nakamoto_Analysis.ipynb**: Analyzes wealth inequality using Gini and Nakamoto coefficients.
-- **IOTA_1year_tx_data2.csv**: Raw transaction dataset containing one year transaction data.
-- **Negative_Balance_Analysis.ipynb**: Analyzes negative balances from the dataset.
-- **Wealth_Distribution_By_Amount_Range.ipynb**: Conducts wealth distribution analysis across different ranges of balances.
-- 
-
 ### Usage
 
 - **Clone the repository**:
@@ -59,5 +48,15 @@ pip install numpy pandas matplotlib seaborn sqlite3 prettytable json
 
 - **Run analysis notebooks**: 
     Once the database has been created, you can run any of the analysis notebooks.
+
+  ### Key Files Explanation
+
+- **Data_Cleaning&Data_Preparing.ipynb**: Jupyter notebook used to clean and prepare the dataset for analysis.
+- **Database_Creating.ipynb**: Creates the SQLite database (`iotaDB.db`) from raw CSV files.
+- **Discriptive_Analysis.ipynb**: Conducts exploratory data analysis on wealth distribution.
+- **Gini_Nakamoto_Analysis.ipynb**: Analyzes wealth inequality using Gini and Nakamoto coefficients.
+- **IOTA_1year_tx_data2.csv**: Raw transaction dataset containing one year transaction data.
+- **Negative_Balance_Analysis.ipynb**: Analyzes negative balances from the dataset.
+- **Wealth_Distribution_By_Amount_Range.ipynb**: Conducts wealth distribution analysis across different ranges of balances.
 
 
