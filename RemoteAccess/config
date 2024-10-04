@@ -1,0 +1,5 @@
+Host abacus-server
+    HostName abacus-1.ifi.uzh.ch
+    User sivayogarajah
+    IdentityFile ~/.ssh/id_ed25519
+    RemoteCommand bash

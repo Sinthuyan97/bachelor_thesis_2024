@@ -1,0 +1,4 @@
+IOTA_Dataset/iota_tx_2024/iota_tx/IOTA_1year_tx_data.csv filter=lfs diff=lfs merge=lfs -text
+Analysis/DataAnalysis/Transaction_Analysis/iotaDB.db filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.db filter=lfs diff=lfs merge=lfs -text
