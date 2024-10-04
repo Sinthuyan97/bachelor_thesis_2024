@@ -1,4 +1,4 @@
-# Bachelor Thesis - IOTA Wealth Distribution
+# Bachelor Thesis - IOTA Wealth Evolution
 
 This repository contains the code, data, and analysis files for the Bachelor Thesis about the IOTA wealth distribution. The project focuses on analyzing the wealth distribution within the IOTA ecosystem, especially after the transition to the UTXO model.
 
