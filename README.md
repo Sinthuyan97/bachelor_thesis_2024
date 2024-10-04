@@ -37,16 +37,16 @@ pip install numpy pandas matplotlib seaborn sqlite3 prettytable json
     cd bachelor_thesis_2024
     ```
 
-- **Install the required packages**:
+- Install the required packages:
 
     ```bash
     pip install numpy pandas matplotlib seaborn sqlite3 prettytable json
     ```
 
-- **Run the database creation script**: 
+- Run the database creation script: 
     Execute the `Database_Creating.ipynb` notebook to generate the `iotaDB.db` file.
 
-- **Run analysis notebooks**: 
+- Run analysis notebooks: 
     Once the database has been created, you can run any of the analysis notebooks.
 
 ### Key Files Explanation
